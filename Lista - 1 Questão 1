@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 1 - Questão 1</title>
+    <style>
+      body {
+        padding: 20%;
+        text-align: center;
+      }
+        h2 {
+    font-family: Arial, Helvetica, sans-serif;}
+    p {
+    
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .site  span{
+        color: rgb(21, 192, 223);
+    }
+    </style>
+</head>
+<body>
+    <h2>Estados Unidos</h2>
+    <p>Os pontos turísticos dos Estados Unidos são os principais atrativos para os viajantes. Isso porque, na hora de montar um roteiro, sempre surgem dúvidas dos cartões-postais dos EUA que devem ser incluídos na programação da viagem. <br>
+        Estes monumentos e paisagens do Estados Unidos são fascinantes e proporcionam experiências maravilhosas para quem visita.
+    </p>
+    <p class="site">Fonte: <span>Querovisitarmais</span></p>
+</body>
+</html>
