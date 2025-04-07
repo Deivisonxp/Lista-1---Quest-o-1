@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista-Questão 3</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(41, 38, 38);
+            color: white;
+            text-align: center;
+            line-height: 2rem;
+        }
+        h1 {
+            color: aqua;
+            font-size: 30px;
+            text-transform: uppercase;
+            padding: 30px;
+        }
+        h3 {
+             color: aqua;
+             text-transform: uppercase;
+        }
+        .clien{
+            padding: 5%;
+            background-color: rgb(1, 3, 5);
+            margin-left: 300px;
+            margin-right: 300px;
+        
+        }
+        .serv {
+            padding: 5%;
+            margin-left: 300px;
+            margin-right: 300px;
+            background-color: rgb(7, 1, 19);
+        }
+    </style>
+</head>
+<body>
+    <h1>Qual é a diferença entre linguagem de programação Server Side e client Side</h1>
+    <div class="clien">
+        <h3 class="client">Client Side</h3>
+        <p class="clientside">
+            Client Side é tudo que que é exibido para o cliente(Usuário final), isso inclui o que o usuário vê, como texto, imagens. <br>
+            HTML e CSS são interpretadas pelo navegador no lado do cliente.
+        </p> 
+    </div> 
+    <div class="serv">
+        <h3 class="server">Server Side</h3>
+        <p class="serveside">
+            Server Side significa tudo o que acontece no servidor. os servidores da web esperam por mensagens de solicitação do cliente, processam-nas quando chegam e respondem ao navegador.
+        </p>
+       </div>  
+</body>
+</html>
