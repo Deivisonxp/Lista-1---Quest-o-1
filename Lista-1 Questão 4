@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista-Questão 4</title>
+    <style>
+       body{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       h2 {
+        color: rgb(70, 70, 199);
+        font-size: 28px;
+        text-transform: uppercase;
+        text-align: center;
+       }
+       section {
+        padding: 20px;
+        line-height: 2rem;
+       }
+       span {
+        color: brown;
+       }
+    </style>
+</head>
+<body>
+   <section>
+    <h2>Oque é semântica?</h2>
+    <p>Semântica é o estudo do significado das palavras e frases em um determinado contexto. No mundo da web, refere-se ao uso apropriado das tags HTML para representar de forma clara o conteúdo da página.</p>
+   </section>
+   <section>
+    <h2>Por que a Semântica é importante no HTML5?</h2>
+    <P>Com a chegada do <span>HTML5</span>, foram introduzidos novas tags semânticas como <span>HEADER</span>, <span>FOOTER</span>, <span>ARTICLE</span>, <span>SECTION</span>, <span>NAV</span>. Essas tags ajudam os desenvolvedores e os navegadores a entenderem melhor a estrutura e a função de cada parte do conteúdo</P>
+    <p>Uma estrutura Semântica adequada melhora a acesssiilidade, facilita a indexação por mecanismos de busca <span>(SEO)</span> de torna o código mais legível e organizado.</p>
+   </section>
+</body>
+</html>
