@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista -1 Questão 5</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        h2{ 
+            text-align: center;
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+        h3 {
+            text-transform: uppercase;
+        }
+        .paises {
+            display: flex;
+            text-align: center;
+            gap: 20px;
+            margin-bottom: 5px;
+            padding-left: 200px;
+        }
+        .paises img {
+            border: 1px solid #ccc;
+        }
+        a {
+            text-decoration: none;
+            color: #ccc;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>América</h2>
+    <div class="paises">
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Brasil">Brasil</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">
+            <img height="250px" width="350px" src="https://wallpaperaccess.com/full/4212347.jpg" alt="Bandeira do Brasil"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Estados_Unidos">Estados Unidos</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Estados_Unidos" target="_blank">
+            <img height="250px" width="350px" src="https://th.bing.com/th/id/R.fdb5e4205cc924e04bf6283e64e462c8?rik=wOtXGiFW3AeebQ&riu=http%3a%2f%2fgeo5.net%2fimagens%2fBandeira-dos-Estados-Unidos-2000px.png&ehk=4zlmMUM64b6%2bEOmpUsxUB7wIT8W4Cd%2fBHJeds5t2Gcg%3d&risl=&pid=ImgRaw&r=0" alt="Bandeira dos Estados Unidos"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Brasil">Argentina</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Argetina" target="_blank">
+            <img height="250px" width="350px" src="https://th.bing.com/th/id/OIP.mDN1tUaa4vgEjeSOL4sTLQHaEw?rs=1&pid=ImgDetMain" alt="Bandeira da Argentina"></a>
+        </div>
+    </div>
+    <h2>África</h2>
+    <div class="paises">
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Africa-do-sul">África do sul</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Africa-do-sul" target="_blank">
+            <img height="250px" width="350px" src="https://geo5.net/imagens/Bandeira-da-Africa-do-Sul.png" alt="Africa do sul"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Egito">Egito</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Egito" target="_blank">
+            <img height="250px" width="350px" src="https://th.bing.com/th/id/R.d70f2a93f645082669f4bc412cc5182e?rik=ipC1NMKzHGFIvQ&riu=http%3a%2f%2fwww.theflagman.co.uk%2fwp-content%2fuploads%2f2017%2f03%2fflag-of-Egypt.jpg&ehk=%2fF3guXbzzeNmiHln3JWDor0yLWTpCec7RwlFr0nystk%3d&risl=&pid=ImgRaw&r=0" alt="Bandeira do Egito"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Marrocos">Marrocos</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Marrocos" target="_blank">
+            <img height="250px" width="350px" src="https://www.worldatlas.com/upload/8c/99/76/shutterstock-742638283.jpg" alt="Bandeira de Marrocos"></a>
+        </div>
+
+    </div>
+    <h2>Europa</h2>
+    <div class="paises">
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Espanha">Espanha</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Espanha" target="_blank">
+            <img height="250px" width="350px" src="https://imagepng.org/wp-content/uploads/2017/09/bandeira-espanha.png" alt="Bandeira da Espanha"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Portugal">Portugal</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Portugal" target="_blank">
+            <img height="250px" width="350px" src="https://cdn.britannica.com/88/3588-050-323A5397/Flag-Portugal.jpg" alt="Bandeira de Portugal"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Inglaterra">Inglaterra</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Inglaterra" target="_blank">
+            <img height="250px" width="350px" src="https://static.vecteezy.com/ti/vetor-gratis/p3/4757154-bandeira-da-inglaterra-gratis-vetor.jpg" alt="Bandeira da Inglaterra"></a>
+        </div>
+        
+    </div>
+    <h2>Ásia</h2>
+    <div class="paises">
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/China">China</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/China" target="_blank">
+            <img height="250px" width="350px" src="https://th.bing.com/th/id/R.dad464ba33801f7133a0f875a8cbffdf?rik=sasobt17LJKd4w&riu=http%3a%2f%2fgeo5.net%2fimagens%2fBandeira-da-China-grande.png&ehk=ekCqpsrd9n%2bvVtLEcJJyauegvEViMiAfquMhZrax0yw%3d&risl=&pid=ImgRaw&r=0" alt="Bandeira da China"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Japão">Japão</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Japão" target="_blank">
+            <img height="250px" width="350px" src="https://pngimg.com/uploads/flags/flags_PNG14641.png" alt="Bandeira do Japão"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Coreia-do-sul">Coreia do Sul</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Coreia-do-sul" target="_blank">
+            <img height="250px" width="350px" src="https://th.bing.com/th/id/R.1141a345cd82060e6a4fc7fcc3324569?rik=Ix7a8NrnbeUJig&riu=http%3a%2f%2fgeo5.net%2fimagens%2fbandeira-coreia-do-sul-2000px.png&ehk=guN1MHfNf2MVOiULEvXapz2BrKWiVZWx5fuNvSVuC04%3d&risl=&pid=ImgRaw&r=0" alt="Bandeira da Coreia do Sul"></a>
+        </div>
+    </div>
+    <h2>Oceania</h2>
+    <div class="paises">
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Australia">Australia</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Australia" target="_blank">
+            <img height="250px" width="350px" src="https://cidadeolimpica.com.br/wp-content/uploads/2021/06/bandeira-australia.png" alt="Bandeira da Australia"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Nova_Zel%C3%A2ndia">Nova Zelandia</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Nova_Zel%C3%A2ndia" target="_blank">
+            <img height="250px" width="350px" src="https://th.bing.com/th/id/R.175dd2e80130a4890b245fa464ee793a?rik=9vgNvaMTw0Rf7g&riu=http%3a%2f%2fgeo5.net%2fimagens%2fbandeira-da-nova-zelandia-2000px.png&ehk=JQkoUb9Ia2eoaV69Nuev3G%2bZFeTUe5KUiSZrashbC%2fY%3d&risl=&pid=ImgRaw&r=0" alt="Bandeira da Nova Zelandia"></a>
+        </div>
+        <div>
+            <h3><a href="https://pt.wikipedia.org/wiki/Tonga">Tonga</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Tonga" target="_blank">
+            <img height="250px" width="350px" src="https://th.bing.com/th/id/OIP.ksWxJQA4dpIepMzM7n2SEQHaDt?rs=1&pid=ImgDetMain" alt="Bandeira da Tonga"></a>
+        </div>
+    </div>
+</body>
+</html>
